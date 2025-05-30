@@ -1,0 +1,16 @@
+# Ignorer les fichiers compilés
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorer les fichiers générés par Eclipse
+.project
+.classpath
+.settings/
+
+# Ignorer les fichiers de dépendances Maven
+target/
+
+# Ignorer les fichiers temporaires
+*~
