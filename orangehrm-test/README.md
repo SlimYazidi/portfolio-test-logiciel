@@ -13,7 +13,10 @@ Ce projet contient deux scripts de test automatisé pour le site [OrangeHRM Demo
 orangehrm-test/  
 ├── src/test/java/com/slim/testing/  
 │   ├── OrangeHRMTest.java        # Script simple avec méthode main  
-│   └── OrangeHRMTestNG.java      # Script avec TestNG (annotations @Test)  
+│   └── OrangeHRMTestNG.java      # Script avec TestNG (annotations @Test) 
+├── docs/
+│   ├── cas-de-test-orangehrm.xlsx
+│   ├── rapport-de-test-orangeHRM.md 
 ├── pom.xml                       # Fichier Maven avec les dépendances  
 └── README.md                     # Documentation du projet  
 
@@ -29,6 +32,11 @@ orangehrm-test/
 
 - OrangeHRMTest.java : clic droit > Run As > Java Application  
 - OrangeHRMTestNG.java : clic droit > Run As > TestNG Test  
+
+## Tests manuels
+
+- [Cas_de_test_OrangeHRM.xlsx](docs/Cas_de_test_OrangeHRM.xlsx) : liste des cas de test manuels exécutés
+- [rapport-test-orangeHRM.md](docs/rapport-test-orangeHRM.md) : rapport de test avec résultats, statuts et conclusion.
 
 ## Remarques
 
